@@ -1,0 +1,242 @@
+*{
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+     
+
+}
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.67),rgba(0,0,0,0.67)), url(pictures/jhonimg.jpg);
+    background-position: center;
+    background-size: cover;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+ul,li,a{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+color: aliceblue;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h2,span{
+    padding-top: 50px;
+    letter-spacing: 1px;
+}
+#span1{
+    color: rgb(236, 26, 68);
+}
+span{
+    color: crimson;
+}
+#subs{
+    font-weight: bold;
+    height: 40px;
+    width: 130px;
+    margin-top: 50px;
+    font-style: initial;
+    margin-right: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(204, 31, 66);
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid rgb(204, 31, 66) transparent;
+
+}
+#subs:hover{
+    cursor: pointer;
+    transition: 0,3s;
+    transform: scale(1.3);
+}
+#txt-div{
+    margin-top:100px;
+    margin-left: 70px;
+    
+}
+ul,li,a:hover{
+    color: rgb(211, 42, 76);
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+.form-div{
+    margin-left: 50px;
+    width: 100%;
+    height: 100%;
+
+}
+input:first-child{
+    width:350px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid rgb(197, 47, 77);
+    outline: none;
+    display: inline-block;
+}
+input:last-child{
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    height: 25px;
+    width: 100px;
+    background-color: crimson;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #000,0px 0px 15px #858585;
+    left: 290px;
+    line-height: 30px;
+    align-items: center;
+    margin-top: 7px;
+}
+.about{
+    width: 100%;
+    
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-me{
+    width: 500px;
+}
+#about-div{
+    width: 1130px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    color: black;
+    justify-content: space-around;
+
+}
+
+.about-me h2{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-me h5{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.about-me span{
+    color: rgb(218, 30, 68);
+
+}
+.about-me p{
+    color: #fcfc;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    line-height: 20px;
+
+}
+.about-me button{
+   background-color:crimson;
+   width: 80p;
+   height: 30px;
+   border: 2px transparent;
+   border-radius: 15px;
+   font-weight: bold;
+   color: aliceblue;
+   padding: 10px 15px 20px 20px;
+   line-height: 10px;
+}
+.about-me button:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.service{
+    background-color: #191919;
+    width: 100%;
+    height: 150vh;
+    border: 2px solid grey transparent;
+    
+    
+    
+}
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 40px;
+}
+.box{
+    display: flex;
+    padding-left: 350px;
+    border-radius: 10px;
+
+    
+}
+.para2{
+    width: 20%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid grey transparent;
+    border-radius: 10px;
+
+    padding-top:10px;
+    background-color: #161414;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+h5{
+    padding-bottom:20px;
+    font-size: 20px;
+    color:white;
+}
+.para1{
+    width: 20%;
+    height: 300px;
+    background-color: #161414;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid grey transparent;
+    padding-top:10px;
+    padding-left: 15px;
+    border-radius: 10px;
+
+    padding-right: 15px;}
+    .para3{
+        width: 20%;
+        height: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 2px solid grey transparent;
+        padding-top:10px;
+        padding-left: 15px;
+        border-radius: 10px;
+
+        padding-right: 15px;
+        background-color: #161414;}
+        .box a{
+            margin-top: 30px;
+            width: 140px;
+            height: 50px;
+            text-align: center;
+            border-radius: 2px solid crimson;
+            background-color: crimson;
+            margin-left: 30px;
+            border-radius: 45px;
+            
+            
+        }
